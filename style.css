@@ -1,0 +1,93 @@
+:root {
+	--clr-headFootBg: #1F2937;
+	--clr-headFootText1: #F9FAF8;
+	--clr-headFootText2: #E5E7EB;
+	--clr-button: #3882F6;
+	--clr-bodyText: #1F2937;
+	--clr-quoteBg: #E5E7EB;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: column;
+	margin: 0
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	background-color: var(--clr-headFootBg);
+}
+
+.header-logo {
+	color: var(--clr-headFootText1);
+}
+
+.header-links {
+	color: var(--clr-headFootText2);
+}
+
+.header-links ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.hero {
+	display: flex;
+	background-color: var(--clr-headFootBg);
+}
+
+.hero-content h1 {
+	color: var(--clr-headFootText1);
+}
+
+.hero-content p {
+	color: var(--clr-headFootText2);
+}
+
+.hero-content button {
+	background-color: var(--clr-button);
+	color: var(--clr-headFootText1);
+}
+
+.info-cards {
+	display: flex;
+}
+
+.quote {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100px;
+	background-color: var(--clr-quoteBg);
+}
+
+.quote-body {
+	font-size: 36px;
+	font-weight: light;
+	font-style: italic;
+	color: var(--clr-bodyText);
+}
+
+.cta {
+	display: flex;
+	background-color: var(--clr-button);
+	margin: 100px;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--clr-headFootBg);
+	color: var(--clr-headFootText2);
+}
