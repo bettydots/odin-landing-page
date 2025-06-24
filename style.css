@@ -24,6 +24,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	background-color: var(--clr-headFootBg);
+	padding: 10px;
 }
 
 .header-logo {
@@ -44,6 +45,7 @@ body {
 .hero {
 	display: flex;
 	background-color: var(--clr-headFootBg);
+	height: 320px;
 }
 
 .hero-content h1 {
@@ -59,11 +61,18 @@ body {
 	color: var(--clr-headFootText1);
 }
 
+.info {
+	height: 330px;
+}
+
 .info-cards {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .quote {
+	height: 285px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -81,10 +90,13 @@ body {
 .cta {
 	display: flex;
 	background-color: var(--clr-button);
-	margin: 100px;
+	/* margin: 50px; */
+	padding: 0;
+	height: 235px;
 }
 
 .footer {
+	padding: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
